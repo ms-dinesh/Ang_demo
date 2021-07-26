@@ -10,7 +10,7 @@
             <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
                 <li class="nav-item " >
                     <a class="nav-link" routerLink="dashboard" routerLinkActive="active" [routerLinkActiveOptions] = "{exact:true}">Dashboard</a> 
-                </li>
+                 </li>
                 <li class="nav-item">
                     <a class="nav-link" routerLink="list" routerLinkActive="active">List</a> 
                 </li>
@@ -22,18 +22,6 @@
     </div>
 
 </nav>
-
-<br>
 <div class="container-fluid">
-<h6>Demo : Hello im the demo </h6>
-<p>Dinesh : so what? stand there!</p>
-<br>
-<h6>Demo : Hey whats the problem dude? why so angry</h6>
-<p>Dinesh : Do you know how to learn Javascrip in 2dys</p>
-<br>
-<h6>Demo : I think , i dont know bro!</h6>
-<p>Dinesh: Jus leave, Have fun dont disturb me</p>
-<br>
-<h6>Demo : Cool dude , see you again</h6>
-<p>Dinesh : Try your luck</p>
+    <router-outlet></router-outlet>
 </div>
